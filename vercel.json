@@ -1,19 +1,22 @@
 {
-    "version": 2,
-    "framework": null,
-    "functions": {
-        "api/*.php": {
-            "runtime": "vercel-php@0.7.5"
-        }
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "framework": null,
+  "functions": {
+    "api/index.php": {
+      "runtime": "vercel-php@0.9.0"
+    }
+  },
+  "installCommand": "composer install --no-dev && npm install",
+  "buildCommand": "npm run build",
+  "routes": [
+    {
+      "src": "/build/(.*)",
+      "dest": "/public/build/$1"
     },
-    "routes": [
-        {
-            "src": "/build/(.*)",
-            "dest": "/public/build/$1"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
-        }
-    ]
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
+    }
+  ]
 }
