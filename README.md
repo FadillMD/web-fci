@@ -39,24 +39,24 @@ Berikut adalah beberapa lokasi file kunci yang dikembangkan dalam project ini:
    cd first-cable-web
 
 2. **Instal Dependensi PHP**
-    Gunakan Composer untuk mengunduh semua library Laravel yang dibutuhkan:
+    <br>Gunakan Composer untuk mengunduh semua library Laravel yang dibutuhkan:
     ```Bash
     composer install
 
-3. Instal Dependensi Frontend
-    Project ini menggunakan Vite untuk mengelola aset CSS dan JS. Instal dan jalankan compiler-nya:
+3. **Instal Dependensi Frontend**
+    <br>Project ini menggunakan Vite untuk mengelola aset CSS dan JS. Instal dan jalankan compiler-nya:
     ```Bash
     npm install
     npm run dev
 
-4. Konfigurasi Environment
-    Salin file contoh konfigurasi dan buat application key baru:
+4. **Konfigurasi Environment**
+    <br>Salin file contoh konfigurasi dan buat application key baru:
     ```Bash
     cp .env.example .env
     php artisan key:generate
 
-5. Jalankan Server
-    Terakhir, jalankan server lokal untuk melihat hasilnya di browser:
+5. **Jalankan Server**
+    <br>Terakhir, jalankan server lokal untuk melihat hasilnya di browser:
     ```Bash
     php artisan serve
 
