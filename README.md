@@ -1,6 +1,6 @@
 # PT. First Cable Industries - Corporate Website
 
-[![Laravel Version](https://img.shields.io/badge/Laravel-11.x-red.svg)](https://laravel.com)
+[![Laravel Version](https://img.shields.io/badge/Laravel-13.x-red.svg)](https://laravel.com)
 [![TailwindCSS Version](https://img.shields.io/badge/TailwindCSS-3.x-blue.svg)](https://tailwindcss.com)
 [![Alpine.js](https://img.shields.io/badge/Alpine.js-3.x-orange.svg)](https://alpinejs.dev)
 
@@ -16,7 +16,7 @@ Website profil perusahaan resmi PT. First Cable Industries yang dibangun menggun
 
 ## 🛠️ Tech Stack
 
-- **Framework:** Laravel 11
+- **Framework:** Laravel 13
 - **Styling:** Tailwind CSS (via Vite)
 - **Interactivity:** Alpine.js
 - **Icons:** Heroicons (SVG)
@@ -58,3 +58,5 @@ Jalankan Server
 php artisan serve
 📄 Lisensi
 Project ini dibuat untuk tujuan portofolio dan pengembangan internal PT. First Cable Industries.
+
+
