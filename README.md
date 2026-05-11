@@ -1,58 +1,75 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# PT. First Cable Industries - Corporate Website
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+[![Laravel Version](https://img.shields.io/badge/Laravel-11.x-red.svg)](https://laravel.com)
+[![TailwindCSS Version](https://img.shields.io/badge/TailwindCSS-3.x-blue.svg)](https://tailwindcss.com)
+[![Alpine.js](https://img.shields.io/badge/Alpine.js-3.x-orange.svg)](https://alpinejs.dev)
 
-## About Laravel
+Website profil perusahaan resmi PT. First Cable Industries yang dibangun menggunakan framework Laravel. Project ini dirancang dengan pendekatan modular menggunakan Blade Components untuk memastikan kode yang bersih, mudah dikelola, dan performa yang optimal.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🚀 Fitur Utama
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- **Dynamic Product Routing**: Sistem routing otomatis untuk katalog produk kabel.
+- **Reusable Blade Components**: Komponen UI (Navbar, Cards, Link) yang dapat digunakan berulang kali untuk efisiensi koding.
+- **Responsive Navigation**: Hamburger menu dan dropdown yang dioptimalkan untuk perangkat mobile menggunakan Alpine.js.
+- **Dynamic SEO Title**: Judul tab browser yang berubah otomatis sesuai halaman yang aktif.
+- **Interactive UI**: Animasi hover dan transisi halus menggunakan Tailwind CSS.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🛠️ Tech Stack
 
-## Learning Laravel
+- **Framework:** Laravel 11
+- **Styling:** Tailwind CSS (via Vite)
+- **Interactivity:** Alpine.js
+- **Icons:** Heroicons (SVG)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 📁 Struktur Project (Penting)
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Berikut adalah beberapa lokasi file kunci yang dikembangkan dalam project ini:
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+- `resources/views/components/layout.blade.php` : Master layout website.
+- `resources/views/components/nav-link.blade.php` : Komponen link navigasi pintar.
+- `resources/views/components/nav-dropdown.blade.php` : Komponen dropdown menu universal.
+- `resources/views/produk/` : Folder berisi halaman detail teknis setiap jenis kabel.
+- `routes/web.php` : Konfigurasi routing yang efisien dengan grouping.
 
-## Agentic Development
+## ⚙️ Cara Instalasi
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+1. **Clone Repository**
+   ```bash
+   git clone [https://github.com/username/first-cable-web.git](https://github.com/username/first-cable-web.git)
+   cd first-cable-web'''
 
-```bash
-composer require laravel/boost --dev
 
-php artisan boost:install
-```
+2. **Instal Dependensi PHP**
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+```Bash
+composer install
+Instal Dependensi Frontend```
 
-## Contributing
+```Bash
+npm install
+npm run dev
+Konfigurasi Environment```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```Bash
+cp .env.example .env
+php artisan key:generate
+Jalankan Server```
 
-## Code of Conduct
+```Bash
+php artisan serve
+📄 Lisensi
+Project ini dibuat untuk tujuan portofolio dan pengembangan internal PT. First Cable Industries.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
+---```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Tips Tambahan untuk GitHub:
 
-## License
+1.  **Tambahkan Screenshot:** Orang lebih suka melihat gambar daripada sekadar teks. Ambil *screenshot* halaman Beranda dan Katalog Produk kamu, masukkan ke folder `public/images/screenshots/`, lalu tambahkan kode ini di bawah judul README:
+    `![Home Page Preview](public/images/screenshots/homepage.png)`
+2.  **Deskripsi Singkat:** Di bagian kanan halaman GitHub (About), isi dengan kalimat singkat: *"Official corporate website for PT. First Cable Industries built with Laravel 11 & Tailwind CSS."*
+3.  **Tags:** Tambahkan tag seperti `laravel`, `tailwindcss`, `corporate-website`, dan `indonesia` agar proyekmu mudah ditemukan.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Dengan `README.md` ini, siapa pun yang melihat kodinganmu (termasuk klien atau HR) akan langsung tahu bahwa kamu adalah developer yang terorganisir.
+
+Ada bagian lain yang ingin kamu tambahkan di dokumentasi ini?
