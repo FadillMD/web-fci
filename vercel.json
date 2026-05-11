@@ -7,8 +7,6 @@
       "runtime": "vercel-php@0.9.0"
     }
   },
-  "installCommand": "composer install --no-dev && npm install",
-  "buildCommand": "npm run build",
   "routes": [
     {
       "src": "/build/(.*)",
