@@ -35,41 +35,26 @@ Berikut adalah beberapa lokasi file kunci yang dikembangkan dalam project ini:
 
 1. **Clone Repository**
    ```bash
-   git clone [https://github.com/username/first-cable-web.git](https://github.com/username/first-cable-web.git)
-   cd first-cable-web'''
-
+   git clone [https://github.com/FadillMD/web-fci.git](https://github.com/FadillMD/web-fci.git)
+   cd first-cable-web
 
 2. **Instal Dependensi PHP**
 
 ```Bash
 composer install
-Instal Dependensi Frontend```
+Instal Dependensi Frontend
 
 ```Bash
 npm install
 npm run dev
-Konfigurasi Environment```
+Konfigurasi Environment
 
 ```Bash
 cp .env.example .env
 php artisan key:generate
-Jalankan Server```
+Jalankan Server
 
 ```Bash
 php artisan serve
 📄 Lisensi
 Project ini dibuat untuk tujuan portofolio dan pengembangan internal PT. First Cable Industries.
-
-
----```
-
-### Tips Tambahan untuk GitHub:
-
-1.  **Tambahkan Screenshot:** Orang lebih suka melihat gambar daripada sekadar teks. Ambil *screenshot* halaman Beranda dan Katalog Produk kamu, masukkan ke folder `public/images/screenshots/`, lalu tambahkan kode ini di bawah judul README:
-    `![Home Page Preview](public/images/screenshots/homepage.png)`
-2.  **Deskripsi Singkat:** Di bagian kanan halaman GitHub (About), isi dengan kalimat singkat: *"Official corporate website for PT. First Cable Industries built with Laravel 11 & Tailwind CSS."*
-3.  **Tags:** Tambahkan tag seperti `laravel`, `tailwindcss`, `corporate-website`, dan `indonesia` agar proyekmu mudah ditemukan.
-
-Dengan `README.md` ini, siapa pun yang melihat kodinganmu (termasuk klien atau HR) akan langsung tahu bahwa kamu adalah developer yang terorganisir.
-
-Ada bagian lain yang ingin kamu tambahkan di dokumentasi ini?
